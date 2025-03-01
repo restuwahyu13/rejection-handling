@@ -4,7 +4,7 @@
 
 # Noted
 
-Untuk nodejs biarpun anda sudah menggunakan try catch untuk menangani error handling untuk menangkap error ketika anda bekerja dengan promise atau async proses, jika asal error nya itu dari **external library** atau yang lainnya, try catch tidak akan mensolving masalah pasti bakal crash juga.
+Untuk nodejs biarpun anda sudah menggunakan try catch untuk menangani error handling untuk menangkap error ketika anda bekerja dengan promise, jika asal error tersebut dari **external library** atau yang lainnya, try catch tidak akan mensolving masalah anda pasti aplikasi bakal crash juga.
 
  ## Cara Golang
 
