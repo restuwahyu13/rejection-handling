@@ -33,5 +33,4 @@ func unhandledRejection(w http.ResponseWriter) {
         if (reason) this.log(ELoggerType.ERROR, `rejectionHandled: ${reason}`, reason)
       })
   }
- ```# rejection-handling
-# rejection-handling
+```
