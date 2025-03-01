@@ -14,4 +14,9 @@ export class ApplicationController {
   pingRejection() {
     return this.applicationService.pingRejection()
   }
+
+  @All('/rejection-handling')
+  pingRejectionHandling() {
+    return this.applicationService.pingRejectionHandling()
+  }
 }

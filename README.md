@@ -2,6 +2,10 @@
 
  Berikut adalah bagaimana cara menghandle error rejection yang tidak diketahui asalnya darimana baik itu dari **external library** atau dari **human error** yang dimana bisa menyebabkan aplikasi menjadi crash, dengan implementasi cara seperti ini diharapkan aplikasi yang dijalan tidak crash saat terjadi error yang tidak diketahui asalnya darimana.
 
+# Noted
+
+Untuk nodejs biarpun anda sudah menggunakan try catch untuk menangani error handling untuk menangkap error ketika anda bekerja dengan promise atau async proses, jika asal error nya itu dari **external library** atau yang lainnya, try catch tidak akan mensolving masalah pasti bakal crash juga.
+
  ## Cara Golang
 
  ```go
