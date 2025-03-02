@@ -1,6 +1,6 @@
 # Rejection Handling
 
- Berikut adalah bagaimana cara menghandle error rejection yang tidak diketahui asalnya darimana baik itu dari **external library** atau dari **human error** yang dimana bisa menyebabkan aplikasi menjadi crash, dengan implementasi cara seperti ini diharapkan aplikasi yang dijalan tidak crash saat terjadi error yang tidak diketahui asalnya darimana.
+ Berikut adalah bagaimana cara menghandle error rejection yang tidak diketahui asalnya darimana baik itu dari **external library** atau dari **human error** yang dimana bisa menyebabkan aplikasi menjadi crash, dengan implementasi cara seperti ini diharapkan aplikasi yang berjalan tidak crash saat terjadi error yang tidak diketahui asalnya darimana.
 
 # Noted
 
